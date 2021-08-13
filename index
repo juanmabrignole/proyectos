@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Reserva Hotel </title>
+</head>
+<body>
+    <h1>Formulario de Reserva</h1>
+    <form>
+        <label>Nombre <br>
+                <input type="text" placeholder="escriba su nombre"></label>
+        <label>Email <br>
+                <input type="email"></label>
+        <label>Telefono <br>
+                <input type="tel"></label>
+        <label>Web site <br>
+                <input type="url"></label>
+        <label>Fecha y Horada de Llegada <br>
+                <input type="date">
+                <input type="time"></label>
+        <label>Dias de Permanencia <br>
+                    <input type="number"></label>
+        <label>Nivel de Estudios <br>
+                    <input type="range"></label>
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>
